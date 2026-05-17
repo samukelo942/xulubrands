@@ -1,0 +1,42 @@
+# XAMPP/Local Development
+*.php~
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node modules (if added later)
+node_modules/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+error.log
+
+# Database backups
+*.sql.bak
+*.sql.zip
+
+# Cache
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+
+# Sensitive files
+db.php.bak
+config.local.php
+
+# Build outputs
+dist/
+build/
